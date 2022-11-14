@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1A1B1F;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+}
+
+.card .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;  
+    text-align: center;  
+    padding: 20px;
+    background: #fff;
+}
+
+.card .content .img {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.card .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card .content span {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to right, #16da546a, #047743);
+    transform: rotate(-35deg);
+    top: -50px;
+    left: -100px;
+}
+
+.card .content h4 {
+    font-size: 18px;
+    color: #1a1919;
+    margin-bottom: 5px;
+}
+
+.card .content h6 {
+    font-size: 13px;
+    color: #077a3b;
+}
+/*5e2066 morado*/
+.card .content p {
+    font-size: 13px;
+    color: #1a161f;
+    margin-top: 10px;
+}
+
+.card .links {
+    position: absolute;
+    z-index: 90;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 20px;
+    align-items: center;
+    right: 10px;
+    top: 15px;
+    transition: .5s;
+}
+/* rgba(255, 255, 255, 0.5);
+box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);*/
+.card:hover .links {
+    right: -50px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.card .links a {
+    font-size: 20px;
+    color: #646069;
+}
+
+.card .links a:nth-child(1):hover {
+    color: #0158ca;
+}
+
+.card .links a:nth-child(2):hover {
+    color: #1C93E4;
+}
+
+.card .links a:nth-child(3):hover {
+    color: #5D277D;
+}
+
+.card .links a:nth-child(4):hover {
+    color: #FE0000;
+}
+
+
+
+.card1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+    margin: 15px 20px;
+}
+
+.card1:hover {
+    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+    transform: translateY(-15px);
+}
+
+.card1 .head {
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+
+.card1 .head .circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #0b6f72;
+    bottom: 0;
+}
+
+.card1 .head .img1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card1 .head .img1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.card1 .description {
+    height: 200px;
+    padding: 40px 20px 20px 20px;
+    border-bottom: solid 1px rgba(6, 74, 76, .18);
+    text-align: center;
+}
+
+.card1 .description h3 {
+    color: #05383a;
+}
+
+.card1 .description h4 {
+    color: #1c5a5c;
+}
+
+.card1 .description p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.card1 .contact {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 .contact a {
+    text-decoration: none;
+    color: #fff;
+    background: #157579;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.card1 .contact a:hover {
+    
+    background: #0b6164;
+   
+}
+
+
+
+
+.container span{
+    font-size: 50pt;
+    font-weight: bold;
+    position: relative;
+    font-family: "Fredoka One";
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.container span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(25px);
+}
+
+.container span::after{
+    content:var(--l);
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    filter: blur(30px);
+    transform: rotateX(50deg)
+}
+.container span:hover{
+    filter: contrast(250%)
+}
+.container span:nth-child(1){
+    color: #47429f ;
+}
+.container span:nth-child(2){
+    color: #47429f;
+}
+.container span:nth-child(3){
+    color: #47429f;
+}
+.container span:nth-child(4){
+    color: #ea2424;
+}
+.container span:nth-child(5){
+    color: #b836a9;
+}
+.container span:nth-child(6){
+    color: #b836a9;
+}
+.container span:nth-child(7){
+    color: #b836a9;
+}
+ .elemento.style{
+
+ }
+ 
+
