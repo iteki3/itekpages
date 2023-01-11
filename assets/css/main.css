@@ -3262,7 +3262,7 @@ body.is-preload .spotlights>section>.content>.inner {
 
 @media screen and (max-width: 1680px) {
   .spotlights>section>.content {
-    padding: 4em 4em 2em 4em;
+    padding: 2em 2em .1em 2em;
   }
 }
 
@@ -3528,392 +3528,38 @@ body.is-preload .wrapper.fade>.inner {
   opacity: 0;
 }
 
-/* /*--------------------------------------------   */
-/* body {
-  background-color: #0d1b2b;
-  overflow-x: hidden;
-  font-family: roboto;
-
--webkit-font-smoothing: antialiased;
-margin: 0;
-}
-
-.flex {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-}
-
-.slider-wrapper div {
-  position: relative;
-}
-
-.slider-wrapper {
-  margin-top: 2vw;
-  margin-left: 2vw;
-}
-
-.slide1-image {
-  height: 24vw;
-}
-
-.slide1-image img {
-  width: 24vw;
-  cursor: pointer;
-}
-
-.slide1-content1 {
-  width: 20vw;
-  color: #fff;
-  padding: 1vw 8vw 2vw 4vw;
-}
-
-.slide1-date {
-  color: #0a8acb;
-  font-size: 1.1vw;
-  font-weight: 400;
-  letter-spacing: 0.1vw;
-  padding-bottom: 1.4vw;
-}
-
-.slide1-title {
-  font-size: 1.2vw;
-  font-weight: 400;
-  letter-spacing: 0.1vw;
-  line-height: 1.55vw;
-  padding-bottom: 1.8vw;
-}
-
-.slide1-text {
-  font-size: 0.8vw;
-  line-height: 1.2vw;
-  opacity: 0.8;
-  padding-bottom: 4vw;
-}
-
-.slide1-more {
-  font-weight: 400;
-  letter-spacing: 0.1vw;
-  float: left;
-  font-size: 0.9vw;
-}
-
-.slide1-bullet {
-  width: 0.5vw;
-  height: 0.5vw;
-  background-color: #0b8bcc;
-  border-radius: 200%;
-  position: relative;
-  margin-left: 1.2vw;
-}
-
-.slide1-nav {
-  margin-left: 64vw;
-  margin-top: -5.5vw;
-} */
-
-/* div.overlay-blue {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  transition: 0.5s ease all;
-} */
-
-/* div.overlay-blue:hover {
-  background-color: rgba(13, 27, 43, 0.5);
-} */
-
-/* .arrows {
-  width: 3.5vw;
-  margin-top: -5.8vw;
-  margin-left: 72vw;
-  position: relative;
-}
-
-.arrow {
-  display: inline-block;
-  position: absolute;
-  width: 1.2vw;
-  height: 1.2vw;
-  background: transparent;
-  text-indent: -9999px;
-  border-top: 0.15vw solid #fff;
-  border-left: 0.15vw solid #fff;
-  transition: all 0.1s ease-in-out;
-  text-decoration: none;
-  color: transparent;
-}
-
-.arrow:hover {
-  border-color: #0a8acb;
-  border-width: 0.25vw;
-}
-
-.arrow:before {
-  display: block;
-  height: 200%;
-  width: 200%;
-  margin-left: -50%;
-  margin-top: -50%;
-  content: "";
-  transform: rotate(45deg);
-}
-
-.arrow.prev1 {
-  transform: rotate(-45deg);
-  left: 0;
-}
-
-.arrow.next1 {
-  transform: rotate(135deg);
-  right: 0;
-} */
-
-
-
-
-
-/* pruebaaaaaaa */
-/* body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat';
-  font-size: 13px;
-  letter-spacing: 1px;
-} */
-/* 
-/* prueba 2 */
-/* #wrapper1 {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#wrapper1 a {
-  text-decoration: none;
-  color: #666;
-}
-
-#wrapper1 a:hover {
-  color: #1bc1a3;
-}
-
-#wrapper1 body,
-hmtl {
-  background: #1eafd4;
-  font-family: "Anton", sans-serif;
-}
-
-
-
-#wrapper1 {
-  width: auto;
-  margin: auto;
-  height: 400px;
-  position: relative;
-  color: #fff;
-  text-shadow: rgba(0, 0, 0, 0.1) 2px 2px 0px;
-}
-
-/* #slider-wrap1 {
-  width: 900px;
-  height: 300px;
-  position: static;
-  overflow: hidden;
-}
-
-#slider-wrap1 ul#slider {
-  width: 50%;
-  height: 50%;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#slider-wrap1 ul#slider li {
-  float: left;
-  position: relative;
-  width: 600px;
-  height: 400px;
-}
-
-#slider-wrap1 ul#slider li>div {
-  position: absolute;
-  top: 20px;
-  left: 35px;
-}
-
-#slider-wrap1 ul#slider li>div h3 {
-  font-size: 36px;
-  text-transform: uppercase;
-}
-
-#slider-wrap1 ul#slider li>div span {
-  font-family: Neucha, Arial, sans serif;
-  font-size: 21px;
-}
-
-#slider-wrap1 ul#slider li i {
-  text-align: center;
-  line-height: 400px;
-  display: block;
-  width: 100%;
-  font-size: 90px;
-}  */
-
-/*btns*/
-/* .btns {
-  position: absolute;
-  width: 50px;
-  height: 60px;
-  top: 50%;
-  margin-top: -25px;
-  line-height: 57px;
-  text-align: center;
-  cursor: pointer;
-  background: rgba(0, 0, 0, 0.1);
-  z-index: 100;
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -ms-user-select: none;
-
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
-  -ms-transition: all 0.1s ease;
-  transition: all 0.1s ease;
-}
-
-.btns:hover {
-  background: rgba(0, 0, 0, 0.3);
-}
-
-#next {
-  right: -50px;
-  border-radius: 7px 0px 0px 7px;
-}
-
-#previous {
-  left: -50px;
-  border-radius: 0px 7px 7px 7px;
-}
-
-#counter {
-  top: 30px;
-  right: 35px;
-  width: auto;
-  position: absolute;
-}
-
-#slider-wrap1.active #next {
-  right: 0px;
-}
-
-#slider-wrap1.active #previous {
-  left: 0px;
-} */
-
-/*bar*/
-/* #pagination-wrap1 {
-  min-width: 20px;
-  margin-top: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 15px;
-  position: relative;
-  text-align: center;
-}
-
-#pagination-wrap1 ul {
-  width: 100%;
-}
-
-#pagination-wrap1 ul li {
-  margin: 0 4px;
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #fff;
-  opacity: 0.5;
-  position: relative;
-  top: 0;
-}
-
-#pagination-wrap1 ul li.active {
-  width: 12px;
-  height: 12px;
-  top: 3px;
-  opacity: 1;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0px;
-}
-
-#wrapper1 h1,
-h2 {
-  text-shadow: none;
-  text-align: center;
-}
-
-#wrapper1 h1 {
-  color: #666;
-  text-transform: uppercase;
-  font-size: 36px;
-}
-
-#wrapper1 h2 {
-  color: #7f8c8d;
-  font-family: Neucha, Arial, sans serif;
-  font-size: 18px;
-  margin-bottom: 30px;
-} */
-
-
-/*ANIMATION*/
-/* #slider-wrap1 ul,
-#pagination-wrap1 ul li {
-  -webkit-transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
-  -moz-transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
-  -o-transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
-  -ms-transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
-  transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
-} */
-
-/* prueba 3-------- */
 
 
 h5 {
-  margin: 0px;
-  font-size: 1.4em;
+  /* margin: 10px; */
+  font-size: 1.2em;
+  /* padding-top: 40px; */
   font-weight: 700;
 }
 
-p {
-  font-size: 16px;
+.property-card2 h5 {
+  /* margin: 10px; */
+  font-size: 1.5em;
+  padding-top: 40px;
+  font-weight: 700;
+  text-align: center;
 }
 
+p {
+  font-size: .8em;
+}
 
 .center1 {
-  /* height: 100vh; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* End Non-Essential  */
-
 .property-card1 {
-  height: 18em;
+  height: 15em;
   width: 20em;
-  padding-left: 10px;
-  /* letter-spacing: normal; */
+  /* padding-left: 10px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3927,17 +3573,13 @@ p {
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 16px;
   overflow: hidden;
-  /* -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff; */
+
 }
 
 .property-card2 {
-  height: 18em;
+  height: 15em;
   width: 20em;
-  /* left: auto;
-  right: auto; */
-  /* letter-spacing: normal; */
-  padding-left: 10px;
+  /* padding-left: 10px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3951,23 +3593,19 @@ p {
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 16px;
   overflow: hidden;
-  /* -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff; */
+
 }
 
-/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
-
-/* Top Half of card1, image. */
-
 .property-image {
-  height: 10em;
-  width: 18em;
-  padding: -5em;
+  height: 18em;
+  width: 20em;
+  /* padding: 1em 1em; */
   position: Absolute;
-  top: 0px;
+  /* top: 0px;s */
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* background-image: url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -3989,7 +3627,7 @@ p {
 
 /* Social Icons */
 
-/* .property-social-icons {
+.property-social-icons {
   width: 1em;
   height: 1em;
   background-color: black;
@@ -3999,7 +3637,7 @@ p {
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-} */
+}
 
 /* Property Cards Hover States */
 
@@ -4021,6 +3659,7 @@ p {
   height: 18em;
 }
 
+
 /* 
 .property-card1:hover .property-social-icons {
   background-color: white;
@@ -4029,9 +3668,9 @@ p {
 .property-card1:hover .property-social-icons:hover {
   background-color: blue;
   cursor: pointer;
-} */
+} 
 
-/* 
+
 
 .property-image-title {
   text-align: center1;
@@ -4045,8 +3684,9 @@ p {
 
 .property-card1:hover .property-image-title {
   opacity: 1;
-} */
+} 
 
+/* .-....................................... */
 
 
 /* ----------------------------------------- */
