@@ -136,9 +136,9 @@ table {
   border-spacing: 0;
 }
 
-body {
+/* body {
   -webkit-text-size-adjust: none;
-}
+} */
 
 mark {
   background-color: transparent;
@@ -3075,6 +3075,19 @@ header h6+p {
 }
 
 /* cards */
+.club {
+  text-align: center;
+}
+
+.per {
+  text-align: center;
+  font-size: larger;
+}
+
+.row {
+  margin: 0 1em;
+}
+
 .box1 {
   border-radius: 30px;
   background: rgb(255, 255, 255);
@@ -3086,6 +3099,8 @@ header h6+p {
   /* border: solid 1px rgba(255, 255, 255, 0.15); */
   margin-bottom: 1.5em;
   padding: 1em;
+
+  /* align-items: center; */
 }
 
 
@@ -3263,12 +3278,14 @@ body.is-preload .spotlights>section>.content>.inner {
 @media screen and (max-width: 1680px) {
   .spotlights>section>.content {
     padding: 2em 2em .1em 2em;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 980px) {
   .spotlights>section {
     display: block;
+    margin: 0 auto;
   }
 
   .spotlights>section>.image {
@@ -3293,6 +3310,21 @@ body.is-preload .spotlights>section>.content>.inner {
   .spotlights>section>.image {
     height: 50vh;
     min-height: 15em;
+
+
+  }
+
+  .spotlights>section>.content {
+    padding: 3em 2em 1em 2em;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .spotlights>section>.image {
+    height: 50vh;
+    min-height: 15em;
+
+
   }
 
   .spotlights>section>.content {
@@ -3388,6 +3420,7 @@ table.alt tfoot {
 @media screen and (max-width: 1680px) {
   .wrapper>.inner {
     padding: 4em 4em 2em 4em;
+
   }
 }
 
@@ -3597,8 +3630,9 @@ p {
 }
 
 .property-image {
-  height: 18em;
+  height: 15em;
   width: 20em;
+  object-fit: cover;
   /* padding: 1em 1em; */
   position: Absolute;
   /* top: 0px;s */
@@ -3687,6 +3721,57 @@ p {
 } 
 
 /* .-....................................... */
+
+/* logos carrusel*/
+
+.in-intro {
+  text-align: center;
+  padding-top: 1em;
+  /* padding-bottom: 1em; */
+}
+
+.cars {
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+}
+
+.cari {
+  width: 50%;
+  display: block;
+}
+
+.artcar {
+  display: flex;
+  width: 200%;
+  animation: bannermove 30s linear infinite;
+}
+
+.artcar.paused {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.im-carr {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  background-color: #ffffff;
+  align-items: center;
+  bottom: auto;
+}
+
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-20%);
+  }
+}
 
 
 /* ----------------------------------------- */
